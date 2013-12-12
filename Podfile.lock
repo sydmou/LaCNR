@@ -17,16 +17,34 @@ PODS:
   - AFNetworking/Serialization (2.0.3)
   - AFNetworking/UIKit (2.0.3):
     - AFNetworking/NSURLConnection
+  - MMDrawerController (0.5.1):
+    - MMDrawerController/Core
+    - MMDrawerController/MMDrawerBarButtonItem
+    - MMDrawerController/MMDrawerVisualStates
+    - MMDrawerController/Subclass
+  - MMDrawerController+Storyboard (0.0.1):
+    - MMDrawerController (~> 0.4.0)
+  - MMDrawerController/Core (0.5.1)
+  - MMDrawerController/MMDrawerBarButtonItem (0.5.1):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.5.1):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.5.1):
+    - MMDrawerController/Core
   - MTDates (0.11.0)
   - OHAutoNIBi18n (0.1.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0.1)
+  - MMDrawerController
+  - MMDrawerController+Storyboard
   - MTDates (~> 0.11)
   - OHAutoNIBi18n (~> 0.1.0)
 
 SPEC CHECKSUMS:
   AFNetworking: e499052cbf3d743e9bb727bb37adb9dc2547ba15
+  MMDrawerController: 3e22aec684dbee5307ff9d1e76523003a3303a2d
+  MMDrawerController+Storyboard: b245b3a2ff977df8501ca1b99efd2c097d0b39dd
   MTDates: ff11255d7b9a49302e0cc68ed5c9a66133a2d94a
   OHAutoNIBi18n: 376b5ff0f368813c8da01650a527be3a731e4a5a
 

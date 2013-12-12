@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "35557CD6437A43B197818CE1"
-               BuildableName = "libPods-AFNetworking.a"
-               BlueprintName = "Pods-AFNetworking"
+               BlueprintIdentifier = "2256208FF64E4483A38070D1"
+               BuildableName = "libPods-MMDrawerController+Storyboard.a"
+               BlueprintName = "Pods-MMDrawerController+Storyboard"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

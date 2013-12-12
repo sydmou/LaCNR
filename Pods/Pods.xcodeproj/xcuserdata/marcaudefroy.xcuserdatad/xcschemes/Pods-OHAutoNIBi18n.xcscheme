@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "929FF97BAEC6407F99EB3B1B"
+               BlueprintIdentifier = "2BBC67A835F24A4D97CB6D2E"
                BuildableName = "libPods-OHAutoNIBi18n.a"
                BlueprintName = "Pods-OHAutoNIBi18n"
                ReferencedContainer = "container:Pods.xcodeproj">
