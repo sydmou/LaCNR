@@ -10,6 +10,9 @@
 		330527E9834049C7877C3C2F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B3F12269B14E9EB3B2FEC6 /* libPods.a */; };
 		924C2A7C185A3DAE000FDE5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 924C2A7B185A3DAE000FDE5C /* ViewController.m */; };
 		924C2A7F185A3DE7000FDE5C /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 924C2A7E185A3DE7000FDE5C /* MenuViewController.m */; };
+		9252F82B187DE20B0095D60F /* CNRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9252F826187DE20B0095D60F /* CNRCategory.m */; };
+		9252F82C187DE20B0095D60F /* CNRComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 9252F828187DE20B0095D60F /* CNRComment.m */; };
+		9252F82D187DE20B0095D60F /* CNRNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 9252F82A187DE20B0095D60F /* CNRNews.m */; };
 		92AF0017185A33310074C5DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AF0016185A33310074C5DE /* Foundation.framework */; };
 		92AF0019185A33310074C5DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AF0018185A33310074C5DE /* CoreGraphics.framework */; };
 		92AF001B185A33310074C5DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AF001A185A33310074C5DE /* UIKit.framework */; };
@@ -25,6 +28,7 @@
 		92AF0042185A33320074C5DE /* LaCNRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AF0041185A33320074C5DE /* LaCNRTests.m */; };
 		92AF004C185A33770074C5DE /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 92AF004B185A33770074C5DE /* podfile */; };
 		92AF004F185A33E10074C5DE /* Main_ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92AF004E185A33E10074C5DE /* Main_ipad.storyboard */; };
+		92D5104E187DD6A300559398 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92D5104C187DD6A300559398 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,12 @@
 		924C2A7B185A3DAE000FDE5C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		924C2A7D185A3DE7000FDE5C /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		924C2A7E185A3DE7000FDE5C /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		9252F825187DE20B0095D60F /* CNRCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNRCategory.h; sourceTree = "<group>"; };
+		9252F826187DE20B0095D60F /* CNRCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNRCategory.m; sourceTree = "<group>"; };
+		9252F827187DE20B0095D60F /* CNRComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNRComment.h; sourceTree = "<group>"; };
+		9252F828187DE20B0095D60F /* CNRComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNRComment.m; sourceTree = "<group>"; };
+		9252F829187DE20B0095D60F /* CNRNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNRNews.h; sourceTree = "<group>"; };
+		9252F82A187DE20B0095D60F /* CNRNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNRNews.m; sourceTree = "<group>"; };
 		92AF0013185A33310074C5DE /* LaCNR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaCNR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92AF0016185A33310074C5DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		92AF0018185A33310074C5DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,6 +73,7 @@
 		92AF0041185A33320074C5DE /* LaCNRTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaCNRTests.m; sourceTree = "<group>"; };
 		92AF004B185A33770074C5DE /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		92AF004E185A33E10074C5DE /* Main_ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_ipad.storyboard; sourceTree = "<group>"; };
+		92D5104D187DD6A300559398 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +112,19 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		9252F824187DE20B0095D60F /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				9252F825187DE20B0095D60F /* CNRCategory.h */,
+				9252F826187DE20B0095D60F /* CNRCategory.m */,
+				9252F827187DE20B0095D60F /* CNRComment.h */,
+				9252F828187DE20B0095D60F /* CNRComment.m */,
+				9252F829187DE20B0095D60F /* CNRNews.h */,
+				9252F82A187DE20B0095D60F /* CNRNews.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		92AF000A185A33310074C5DE = {
 			isa = PBXGroup;
 			children = (
@@ -137,12 +161,14 @@
 		92AF001C185A33310074C5DE /* LaCNR */ = {
 			isa = PBXGroup;
 			children = (
+				9252F824187DE20B0095D60F /* Entities */,
 				924C2A79185A3DAE000FDE5C /* ViewControllers */,
 				92AF004D185A338B0074C5DE /* iPad */,
 				92AF0025185A33310074C5DE /* AppDelegate.h */,
 				92AF0026185A33310074C5DE /* AppDelegate.m */,
 				92AF002E185A33310074C5DE /* Images.xcassets */,
 				92AF001D185A33310074C5DE /* Supporting Files */,
+				92D5104C187DD6A300559398 /* Model.xcdatamodeld */,
 			);
 			path = LaCNR;
 			sourceTree = "<group>";
@@ -321,8 +347,12 @@
 			files = (
 				924C2A7C185A3DAE000FDE5C /* ViewController.m in Sources */,
 				92AF0027185A33310074C5DE /* AppDelegate.m in Sources */,
+				92D5104E187DD6A300559398 /* Model.xcdatamodeld in Sources */,
+				9252F82B187DE20B0095D60F /* CNRCategory.m in Sources */,
 				92AF0023185A33310074C5DE /* main.m in Sources */,
 				924C2A7F185A3DE7000FDE5C /* MenuViewController.m in Sources */,
+				9252F82C187DE20B0095D60F /* CNRComment.m in Sources */,
+				9252F82D187DE20B0095D60F /* CNRNews.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,6 +579,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		92D5104C187DD6A300559398 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				92D5104D187DD6A300559398 /* Model.xcdatamodel */,
+			);
+			currentVersion = 92D5104D187DD6A300559398 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 92AF000B185A33310074C5DE /* Project object */;
 }

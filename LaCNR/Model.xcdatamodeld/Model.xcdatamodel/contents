@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13B42" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CNRCategory" representedClassName="CNRCategory" syncable="YES">
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="news" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CNRNews" inverseName="categories" inverseEntity="CNRNews" syncable="YES"/>
+    </entity>
+    <entity name="CNRComment" representedClassName="CNRComment" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="summary" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="news" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CNRNews" inverseName="comments" inverseEntity="CNRNews" syncable="YES"/>
+    </entity>
+    <entity name="CNRNews" representedClassName="CNRNews" syncable="YES">
+        <attribute name="content" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="identifier" attributeType="String" syncable="YES"/>
+        <attribute name="isRead" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="link" attributeType="String" syncable="YES"/>
+        <attribute name="teaser" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+        <relationship name="categories" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CNRCategory" inverseName="news" inverseEntity="CNRCategory" syncable="YES"/>
+        <relationship name="comments" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CNRComment" inverseName="news" inverseEntity="CNRComment" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CNRCategory" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="CNRComment" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="CNRNews" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>
